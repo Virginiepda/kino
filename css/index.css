@@ -1,0 +1,281 @@
+body{
+    background-color: black;
+    margin:auto;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    max-width: 1400px;
+    min-height:100%;
+    height:100%;
+
+}
+
+button{
+    background-color: #99310c;
+    font-size: large;
+    padding:5px;
+    color:white;
+    border:0;
+
+    font-weight: bold;
+}
+
+
+
+button a, a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+h3{
+    color:#99310c;
+}
+
+
+
+/*HEADER /////////////////////////////////////////////////////////*/
+
+div.navigation{
+    display:inline-flex;
+    justify-content: flex-start;
+    background-color: #99310c;
+    width:100%;
+}
+
+
+div.logo{
+    height:50px;
+    width:50px;
+}
+
+img.logo{
+    height:50px;
+    width:50px;
+}
+
+nav{
+    width:100%;
+    margin: auto 0;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin: auto 15px;
+    text-decoration: none;
+    /*width:80px;*/
+}
+
+div.menuleft, div.menuright{
+    display: inline-flex;
+
+
+}
+
+
+
+/*.sous ul {*/
+    /*position: absolute;*/
+    /*!* on cache les sous menus complètement sur la gauche *!*/
+    /*left: -999em;*/
+    /*text-align: left;*/
+    /*z-index: 1000;*/
+/*}*/
+/*.sous li:hover ul {*/
+    /*!* Au survol des li du menu on replace les sous menus *!*/
+    /*left: auto;*/
+/*}*/
+
+h1{
+    color:white;
+    text-align: center;
+
+}
+
+main{
+    margin:30px;
+    display:flex;
+
+}
+
+div.alert{
+    text-align: center;
+    padding:20px;
+    background-color: white;
+    color:green;
+}
+
+/*PAGE INDEX//////////////////////////////////////////////////////*/
+
+
+main.index{
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.poster{
+    margin:5px;
+}
+
+img{
+    height:200px;
+    width:134px;
+}
+
+/*PAGE DETAIL  //////////////////////////////////////////////////*/
+
+p{
+    color:white;
+}
+
+img.detail{
+    width:350px;
+    height:514px;
+}
+
+div.infos{
+    margin: 0 80px;
+}
+
+div.buttons{
+    text-align: center;
+    margin:70px;
+}
+
+div.critic-button, div.watch-list-button{
+    margin:15px;
+}
+
+div.detail-review{
+    margin-top:15px;
+    padding-top:10px;
+    border-top:1px solid rgba(255,255,255,0.5);
+}
+
+p.title{
+    font-weight: bold;
+}
+
+
+/*ADD REVIEW /////////////////////////////////////////////////////////*/
+
+label{
+    color:white;
+}
+
+input#review{
+    height:300px;
+    width: 500px;
+}
+
+div.review, div.review-title{
+    display:flex;
+    flex-direction: column;
+}
+
+.error p{
+    color:red;
+}
+
+div.review-button{
+    margin-top:20px;
+}
+
+
+/*REGISTER /////////////////////////////////////////////////////////*/
+
+main.register, main.faq, main.login{
+    display:block;
+}
+
+main.register{
+    text-align: center;
+}
+
+div.input{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:10px;
+}
+
+div.item{
+    display:inline-flex;
+    justify-content: center;
+}
+label{
+    width:90px;
+    margin:auto 5px auto 0;
+}
+
+input{
+    width:200px;
+    height:25px;
+    border: 2px solid #99310c;
+}
+
+
+
+/*CONTACT /////////////////////////////////////////////////////////*/
+
+main.contact{
+    justify-content: center;
+
+}
+
+.option{
+    margin:30px;
+    text-align: center;
+}
+span.fas.fa-envelope, span.fas.fa-phone{
+    font-size: 45px;
+
+}
+
+.fas.fa-envelope{
+    color:white;
+}
+
+
+/*FOOTER /////////////////////////////////////////////////////////*/
+
+footer{
+    display:flex;
+    justify-content: space-between;
+   padding-top:10px;
+    padding-bottom:10px;
+    background-color:white;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    border-top:3px solid #99310c;
+
+}
+
+div.copyright p, div.legal a{
+    color:#99310c;
+    font-weight: bold;
+    margin: auto 0;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+div.legal a{
+    border-right: 1px solid black;
+}
+
+div.legal a:last-child{
+    border-right: none;
+}
+
+/*LOGIN/////////////////////////////////////////*/
+
+form{
+    width:330px;
+    margin:auto;
+}
